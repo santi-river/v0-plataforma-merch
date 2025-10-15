@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation"
+import AuthPage from "@/app/auth/login/page"
 
 export default function Page() {
-  redirect("/auth/login")
+  return <AuthPage />
 }
